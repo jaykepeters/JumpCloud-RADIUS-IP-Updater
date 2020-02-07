@@ -38,6 +38,8 @@ Save something like this to `/etc/jc_radius.conf` or another name/path of your c
 To enable logging to work correctly with the given cron entry, you must first initialize the log file:
 `touch /var/log/radupdate.log`
 
+In the event that your configuration file is corrupted after running this script, check for the existence of a `{CONFIG FILENAME}.bak` file in the same directory as your original configuration file. 
+
 # Usage
 1. Cron will run the script every x minutes, **OR**
 2. Run the script like so: `radupdate`
