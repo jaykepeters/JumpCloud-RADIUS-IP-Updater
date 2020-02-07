@@ -44,3 +44,9 @@ To enable logging to work correctly with the given cron entry, you must first in
 
 # Support
 In the event that you need help using this product, please feel free to open up an issue and I will respond promptly!
+
+# Development
+There are a few features that could be added in the future for ease of simplicity and to make the user feel even more lazy:
+- [ ] More error checking, more verbosity
+- [ ] Command line interface to add, update, and delete RADIUS entries
+- [ ] Logging implementation that is not in cron and bash
